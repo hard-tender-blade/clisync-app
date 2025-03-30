@@ -1,0 +1,308 @@
+/* CSS Reset */
+/* *,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+} */
+
+/* Typography */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    margin: 0.67em 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.75em;
+}
+h3 {
+    font-size: 1.5em;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+    font-size: 0.875em;
+}
+
+p {
+    margin: 1em 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+blockquote {
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    border-left: 5px solid #eee;
+    background-color: #f9f9f9;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 1em 0;
+}
+
+/* Lists */
+ul,
+ol {
+    margin: 1em 0;
+    padding-left: 40px;
+}
+
+li {
+    margin: 0.5em 0;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+th,
+td {
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+
+/* Forms */
+form {
+    margin: 1em 0;
+}
+
+label {
+    display: block;
+    margin: 0.5em 0 0.2em;
+}
+
+input,
+textarea,
+select,
+button {
+    font-family: inherit;
+    font-size: inherit;
+    margin: 0;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+    width: auto;
+}
+
+button {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Media */
+img {
+    max-width: 100%;
+    height: auto;
+    border: none;
+}
+
+figure {
+    margin: 1em 0;
+}
+
+figcaption {
+    font-size: 0.875em;
+    color: #666;
+}
+
+/* Misc */
+address {
+    font-style: normal;
+    margin: 1em 0;
+}
+
+pre {
+    padding: 1em;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    overflow-x: auto;
+}
+
+code,
+kbd,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+/* Embedded content */
+iframe {
+    border: none;
+}
+
+/* Misc */
+details {
+    margin: 1em 0;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+/* Default styles for additional tags */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+    display: block;
+    margin: 1em 0;
+}
+
+main {
+    display: block;
+    margin: 1em 0;
+}
+
+mark {
+    background-color: #ff0;
+    color: #000;
+}
+
+small {
+    font-size: 80%;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
+
+time {
+    font-style: italic;
+}
+
+caption {
+    padding: 0.5em;
+    caption-side: bottom;
+}
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+dfn {
+    font-style: italic;
+}
+
+ins {
+    text-decoration: underline;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+var {
+    font-style: italic;
+}
+
+s {
+    text-decoration: line-through;
+}
+
+u {
+    text-decoration: underline;
+}
+
+/* Accessibility improvements */
+[hidden] {
+    display: none;
+}
+
+[aria-hidden='true'] {
+    visibility: hidden;
+}

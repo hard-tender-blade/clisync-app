@@ -1,0 +1,11 @@
+//todo !!! rewrite auth, separate 2 auth types (email+password, google)!!! - this is important, code is messy af
+
+
+check db and sequelize types
+setup 2 languages
+we could make explanation to table columns
+implement react query - https://rapidapi.com/guides/call-apis-react-query ???
+
+Ideas: 
+add tips how to use app
+

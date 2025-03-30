@@ -1,0 +1,123 @@
+/* Default styles for common text HTML tags */
+
+.default {
+    font-family: Arial, sans-serif; /* Base font */
+    line-height: 1.6; /* Base line height */
+}
+
+/* Heading styles */
+.default h1,
+.default h2,
+.default h3,
+.default h4,
+.default h5,
+.default h6 {
+    margin: 0.5em 0;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.default h1 {
+    font-size: 2rem;
+}
+
+.default h2 {
+    font-size: 1.75rem;
+}
+
+.default h3 {
+    font-size: 1.5rem;
+}
+
+.default h4 {
+    font-size: 1.25rem;
+}
+
+.default h5 {
+    font-size: 1rem;
+}
+
+.default h6 {
+    font-size: 0.875rem;
+}
+
+/* Paragraph and link styles */
+.default p {
+    margin: 0em 0;
+}
+
+.default a {
+    color: #007bff; /* Link color */
+    text-decoration: none;
+}
+
+.default a:hover,
+.default a:focus {
+    text-decoration: underline;
+}
+
+/* List styles */
+.default ul,
+.default ol {
+    margin: 0em 0;
+    padding-left: 2rem; /* Default padding for lists */
+}
+
+.default ul {
+    list-style-type: disc;
+}
+
+.default ol {
+    list-style-type: decimal;
+}
+
+.default li {
+    padding-left: 1rem; /* Example custom style */
+}
+
+/* Blockquote style */
+.default blockquote {
+    margin: 0em 0;
+    padding: 0.5em 1em;
+    border-left: 4px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+/* Inline text elements */
+.default strong {
+    font-weight: bold;
+}
+
+.default em {
+    font-style: italic;
+}
+
+.default code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f4f4f4;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+}
+
+/* Preformatted text */
+.default pre {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f4f4f4;
+    padding: 1em;
+    overflow: auto;
+    border-radius: 3px;
+}
+
+/* Hide the calendar icon in Chrome, Edge, and Safari */
+input[type='date']::-webkit-calendar-picker-indicator,
+input[type='time']::-webkit-calendar-picker-indicator {
+    color: white;
+    background-color: white;
+}
+
+/* Hide the calendar icon in Firefox */
+input[type='date']::-moz-calendar-picker-indicator,
+input[type='time']::-moz-calendar-picker-indicator {
+    color: white;
+    background-color: white;
+}

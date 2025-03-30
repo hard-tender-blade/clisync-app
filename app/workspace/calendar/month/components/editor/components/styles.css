@@ -1,0 +1,35 @@
+.contentEditable a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contentEditable a:hover {
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.contentEditable b {
+    font-weight: bold;
+    color: inherit;
+}
+
+.contentEditable i {
+    font-style: italic;
+    color: inherit;
+}
+
+.contentEditable::before {
+    content: attr(data-placeholder);
+    color: #000000;
+    opacity: 0.45;
+    position: absolute;
+}
+
+.contentEditable:empty::before {
+    display: block;
+}
+
+.contentEditable:not(:empty)::before {
+    display: none;
+}
